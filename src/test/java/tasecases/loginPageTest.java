@@ -14,6 +14,8 @@ import crm.pages.HomePage;
 import crm.pages.LoginPage;
 import crm.util.utilityClass;
 
+
+/*Author : vaibhav Thorat    class contain test for loging page and some other few TC */
 public class loginPageTest extends baseClass {
 
 	LoginPage loginpage;
