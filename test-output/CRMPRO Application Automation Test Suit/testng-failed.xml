@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRMPRO Application Automation Test Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="crm_pro test Cases(failed)">
+    <classes>
+      <class name="tasecases.loginPageTest">
+        <methods>
+          <include name="crmLogoTest"/>
+          <include name="verifyloginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tasecases.loginPageTest -->
+      <class name="tasecases.contactsPageTest">
+        <methods>
+          <include name="verifyTitleOfContactPageTest"/>
+          <include name="selectContextTest"/>
+          <include name="validateCreateNewContact"/>
+          <include name="setUp"/>
+          <include name="selectMultipleContactTest"/>
+          <include name="tearDown"/>
+          <include name="verifyContactsPageLabelTest"/>
+        </methods>
+      </class> <!-- tasecases.contactsPageTest -->
+      <class name="tasecases.homePageTest">
+        <methods>
+          <include name="verifyHomepageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyuserLabelTest"/>
+          <include name="tearDown"/>
+          <include name="verifyContactsLinkTest"/>
+        </methods>
+      </class> <!-- tasecases.homePageTest -->
+    </classes>
+  </test> <!-- crm_pro test Cases(failed) -->
+</suite> <!-- Failed suite [CRMPRO Application Automation Test Suit] -->
