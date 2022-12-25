@@ -57,6 +57,8 @@ Actions act;
 		calenderLink.click();
 		return new CalenderPage();
 	}
+	
+	
 	//click on new contact
 	public void clickOnnewcontactLink() throws InterruptedException
 	{
