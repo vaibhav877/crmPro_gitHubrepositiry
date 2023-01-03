@@ -4,10 +4,30 @@
   <listeners>
     <listener class-name="extentReportListener.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="crmproTest(failed)">
     <classes>
+      <class name="tasecases.dealsPageTest">
+        <methods>
+          <include name="verifyTextMessageOfTypeHelPTest"/>
+          <include name="tearDown"/>
+          <include name="logOut"/>
+          <include name="setUp"/>
+          <include name="verifyLabelOfdealsPage"/>
+          <include name="verifyTitleofdealPageTest"/>
+        </methods>
+      </class> <!-- tasecases.dealsPageTest -->
+      <class name="tasecases.homePageTest">
+        <methods>
+          <include name="verifyHomepageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyuserLabelTest"/>
+          <include name="tearDown"/>
+          <include name="verifyContactsLinkTest"/>
+        </methods>
+      </class> <!-- tasecases.homePageTest -->
       <class name="tasecases.loginPageTest">
         <methods>
+          <include name="verifyloginPageTitleTest"/>
           <include name="crmLogoTest"/>
           <include name="verifyloginTest"/>
           <include name="setUp"/>
@@ -15,6 +35,34 @@
           <include name="logOut"/>
         </methods>
       </class> <!-- tasecases.loginPageTest -->
+      <class name="tasecases.contactsPageTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="selectContextTest"/>
+          <include name="validateCreateNewContact"/>
+          <include name="setUp"/>
+          <include name="selectMultipleContactTest"/>
+          <include name="tearDown"/>
+          <include name="verifyContactsPageLabelTest"/>
+        </methods>
+      </class> <!-- tasecases.contactsPageTest -->
+      <class name="tasecases.callPageTest">
+        <methods>
+          <include name="tearUp"/>
+          <include name="verifyLabelOnCallPage"/>
+          <include name="verifyTitleOfCallPage"/>
+          <include name="tearDown"/>
+          <include name="verifyaddedInformation"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- tasecases.callPageTest -->
+      <class name="tasecases.calenderPageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="validateDateSelection"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tasecases.calenderPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- crmproTest(failed) -->
 </suite> <!-- Failed suite [CRM pro project Suite] -->

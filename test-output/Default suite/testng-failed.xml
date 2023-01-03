@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tasecases.dealsPageTest">
+      <class name="tasecases.callPageTest">
         <methods>
-          <include name="verifyTextMessageOfTypeHelPTest"/>
+          <include name="tearUp"/>
           <include name="tearDown"/>
+          <include name="verifyaddedInformation"/>
           <include name="logOut"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- tasecases.dealsPageTest -->
+      </class> <!-- tasecases.callPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

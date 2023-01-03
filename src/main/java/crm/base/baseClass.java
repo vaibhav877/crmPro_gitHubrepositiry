@@ -1,14 +1,18 @@
 package crm.base;
 
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.w3c.dom.DOMConfiguration;
 import org.w3c.dom.html.HTMLUListElement;
 
 public class baseClass {
@@ -59,10 +63,10 @@ public class baseClass {
 			}
 		
 		
+	      
 	
-			
-			
-	
+		
+	     
 			
 		}
 		

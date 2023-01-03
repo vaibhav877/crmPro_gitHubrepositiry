@@ -6,9 +6,14 @@
   	<listener class-name="extentReportListener.ExtentReporterNG" />
   </listeners>
 
-  <test name="Test">
+  <test name="crmproTest">
     <classes>
+      <class name="tasecases.contactsPageTest"/>
       <class name="tasecases.loginPageTest"/>
+      <class name="tasecases.calenderPageTest"/>
+      <class name="tasecases.homePageTest"/>
+      <class name="tasecases.dealsPageTest"/>
+      <class name="tasecases.callPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

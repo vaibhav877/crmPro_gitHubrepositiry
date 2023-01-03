@@ -63,6 +63,10 @@ public void setUp() throws IOException
 		Assert.assertEquals(typepopupmsg, expectedmsg);
 	}
 	
+//	@Test
+//	 public void verify 
+//	
+	
 	@AfterMethod
 	public void logOut(ITestResult result) throws IOException, InterruptedException
 	{

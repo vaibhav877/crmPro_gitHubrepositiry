@@ -23,7 +23,7 @@ public LoginPage()
 	PageFactory.initElements(driver,this );
 }
 
-//
+
 public String getTitleOfLoginPage()
 {
 	return driver.getTitle();

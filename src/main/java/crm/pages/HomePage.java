@@ -16,7 +16,7 @@ public class HomePage extends baseClass {
 @FindBy(xpath="//a[text()='Tasks']") private WebElement taskLink;
 @FindBy(xpath="//a[text()='New Contact']") private WebElement newContactLink;
 @FindBy(xpath="//a[text()='Calendar']") private WebElement calenderLink;
-
+@FindBy (xpath="//a[text()='Call']") private WebElement Calllink;
 Actions act;
 	public HomePage()
 	{
@@ -67,6 +67,13 @@ Actions act;
 	    Thread.sleep(2000);
 		newContactLink.click();
 		
+	}
+	
+	//click on Call Link to open call paage
+	public CallPage clickOnCallLInk()
+	{
+		Calllink.click();
+		return new CallPage();
 	}
 	
 	
